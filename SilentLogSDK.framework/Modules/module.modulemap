@@ -1,0 +1,10 @@
+framework module SilentLogSDK {
+  umbrella header "SilentLogSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module SilentLogSDK.Swift {
+    header "SilentLogSDK-Swift.h"
+}
